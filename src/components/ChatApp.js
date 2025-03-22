@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./ChatApp.css";
 
-const API_KEY = "AIzaSyCYxkLlNXS3AQ5tLM1U2y8saiNGp85sY1A"; // Replace with your actual Gemini API key
+const API_KEY = ""; // Replace with your actual Gemini API key
 
 function ChatApp() {
     const [messages, setMessages] = useState([]);
